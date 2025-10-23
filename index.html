@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refresher</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="controls">
+            <input type="url" id="urlInput" placeholder="Enter URL">
+            <input type="number" id="intervalInput" placeholder="Interval (s)" min="1">
+            <button id="startButton">Start</button>
+            <button id="stopButton" disabled>Stop</button>
+        </div>
+        <p id="status">Idle</p>
+    </div>
+    
+    <iframe id="targetFrame"></iframe>
+
+    <script src="script.js"></script>
+</body>
+</html>
